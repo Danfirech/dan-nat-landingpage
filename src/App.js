@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import { Home } from "./components/Home";
+import { NavBar } from "./components/NavBar";
 
 const Container = styled.div`
   height: 100vh;
@@ -8,7 +10,12 @@ const Container = styled.div`
 `;
 
 function App() {
-  return <Container></Container>;
+  return (
+    <Container>
+      <NavBar></NavBar>
+      <Home></Home>
+    </Container>
+  );
 }
 
 export default App;
