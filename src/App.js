@@ -7,7 +7,6 @@ const Container = styled.div`
   height: 100vh;
   overflow: hidden;
   position: relative;
-
   padding-left: 200px;
   padding-right: 200px;
 `;
@@ -17,8 +16,6 @@ function App() {
     <div>
       <Container>
         <NavBar />
-      </Container>
-      <Container>
         <Home />
       </Container>
       <Container>
