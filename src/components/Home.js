@@ -2,16 +2,16 @@ import React from "react";
 import styled from "styled-components";
 import SurferDan from "../image/suferdan.jpg";
 
-const Content = styled.div`
-  background-image: url(${SurferDan});
-  width: 3000px;
-  height: 2000px;
-`;
+// const Content = styled.div`
+//   background-image: url(${SurferDan});
+//   width: 3000px;
+//   height: 2000px;
+// `;
 
 const Container = styled.div`
   height: calc(100vh - 50px);
   display: flex;
-  padding: 50px;
+  padding: 20px;
 `;
 
 const Left = styled.div`
