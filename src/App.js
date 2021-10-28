@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Home } from "./components/Home";
 import { NavBar } from "./components/NavBar";
+import { About } from "./components/About";
 
 const Container = styled.div`
   height: 100vh;
@@ -16,6 +17,7 @@ function App() {
     <Container>
       <NavBar></NavBar>
       <Home></Home>
+      <About></About>
     </Container>
   );
 }
