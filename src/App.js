@@ -6,9 +6,9 @@ const Container = styled.div`
   height: 100vh;
   overflow: hidden;
   position: relative;
-  background-color: lightblue;
-  padding-left: 80px;
-  padding-right: 80px;
+
+  padding-left: 200px;
+  padding-right: 200px;
 `;
 
 function App() {
