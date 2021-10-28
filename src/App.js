@@ -7,6 +7,8 @@ const Container = styled.div`
   overflow: hidden;
   position: relative;
   background-color: lightblue;
+  padding-left: 80px;
+  padding-right: 80px;
 `;
 
 function App() {
