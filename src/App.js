@@ -1,6 +1,9 @@
 import styled from "styled-components";
-import { Home } from "./components/Home";
 import { NavBar } from "./components/NavBar";
+import { Home } from "./components/Home";
+import { Services } from "./components/Services";
+import { About } from "./components/About";
+import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 
 const Container = styled.div`
@@ -19,6 +22,13 @@ function App() {
         <Home />
       </Container>
       <Container>
+        <Services />
+      </Container>
+      <Container>
+        <About />
+      </Container>
+      <Container>
+        <Contact />
         <Footer />
       </Container>
     </div>
