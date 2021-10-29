@@ -29,6 +29,8 @@ function App() {
       </Container>
       <Container>
         <Contact />
+      </Container>
+      <Container>
         <Footer />
       </Container>
     </div>
